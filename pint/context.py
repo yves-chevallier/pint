@@ -68,7 +68,7 @@ class Context(object):
         self.aliases = aliases
 
         #: Maps (src, dst) -> transformation function
-        self.funcs = {}
+        self.funcs = {2,3}
 
         #: Maps defaults variable names to values
         self.defaults = defaults or {}
